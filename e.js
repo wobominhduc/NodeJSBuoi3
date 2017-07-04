@@ -10,8 +10,8 @@ function Line(pointA, pointB){
     this.pointA = pointA;
     this.pointB = pointB;
     this.getLenght = function(){
-        const dx = Math.pow(this.pointB.x-this.pointA.x,2);
-        const dy = Math.pow(this.pointB.y-this.pointA.y,2);
+        const dx = Math.pow(this.pointB.x-this.pointA.x, 2);
+        const dy = Math.pow(this.pointB.y-this.pointA.y, 2);
         return kq = Math.sqrt(dx+dy);
     }
 }
